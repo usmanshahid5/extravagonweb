@@ -1,20 +1,29 @@
-import { Route }  from 'react-router-dom';
-import Home       from './pages/Home';
-import Login      from './pages/Login';
-import Register   from './pages/Register';
-import BookingCar from './pages/BookingCar';
-import './App.css';
-import 'antd/dist/antd.css'
+import React             from 'react';
+import Header            from './components/header';
+import Main              from './components/Main';
+import MobileSearchModal from './components/MobileSearchModal';
+import Footer            from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <Route path="/" exact component={ Home }/>
-      <Route path="/login" exact component={ Login }/>
-      <Route path="/register" exact component={ Register }/>
-      <Route path="/bookingcar" exact component={ BookingCar }/>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Header/>
+
+        <Main/>
+
+        <Footer/>
+
+        <MobileSearchModal/>
+
+        <div id="spinner" className="spinner-background">
+          <div className="spinner spinner--pos">
+            <div></div>
+          </div>
+        </div>
+      </React.Fragment>
+    )
+  }
 }
 
 export default App;
