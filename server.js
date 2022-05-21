@@ -6,6 +6,8 @@ app.use(express.json());
 
 const path = require('path');
 
+console.log(process.env.PORT, 111111111);
+
 if (process.env.NODE_ENV === 'production') {
   // production mode
   app.use(express.static('client/build'));
