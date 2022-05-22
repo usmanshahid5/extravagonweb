@@ -8,13 +8,11 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        {/*<Header/>*/}
+        <Header/>
 
-        {/*<Main/>*/}
+        <Main/>
 
-        {/*<Footer/>*/}
-
-        <p>Hello World</p>
+        <Footer/>
 
         <MobileSearchModal/>
 
