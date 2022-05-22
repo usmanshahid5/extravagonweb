@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 function connectDB() {
   const HOST_NAME = "abdullahweb007";
   const HOST_PASSWORD = "contegris123";
