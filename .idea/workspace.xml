@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ff0576f-608c-47c3-bc55-11879a379222" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ExtraVagantForeigns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Condensed-Bold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Condensed-Bold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Condensed-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Condensed-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Extended-Bold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Extended-Bold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Extended-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Extended-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Mono-Medium-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Mono-Medium-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Mono-Medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Mono-Medium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Mono-Regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Mono-Regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Mono-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Mono-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Bold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Bold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Medium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Regular-Italic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Regular-Italic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Regular-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Regular-Italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/GT-America-Standard-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/GT-America-Standard-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Condensed-Bold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Condensed-Bold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Condensed-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Condensed-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Extended-Bold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Extended-Bold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Extended-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Extended-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Mono-Medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Mono-Medium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Mono-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Mono-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Mono-Regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Mono-Regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Mono-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Mono-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Bold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Bold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Medium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Regular-Italic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Regular-Italic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Regular-Italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Regular-Italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/GT-America-Standard-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/GT-America-Standard-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-black.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-black.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-black.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-bold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-bold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-light.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-medium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-semibold.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-semibold.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/inter-semibold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/inter-semibold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/montserrat-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/montserrat-regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/montserrat-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/montserrat-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/roboto-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/roboto-regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/dreamdrive/roboto-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/dreamdrive/roboto-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/roboto-medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/roboto-medium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/fonts/roboto-medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/roboto-medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/apple-store-1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/apple-store-1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/arrow-small.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/arrow-small.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/brand-icon-32.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/brand-icon-32.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/close-48-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/close-48-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/close-48-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/close-48-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/close-52-48.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/close-52-48.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/datepicker-arrow-1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/datepicker-arrow-1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/datepicker-arrow-2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/datepicker-arrow-2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/ellipsis.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ellipsis.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/flags.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/flags.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/flags@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/flags@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/google-store-1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/google-store-1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/hdc-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/hdc-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-accord-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-accord-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-check-blue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-check-blue.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-check-complete-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-check-complete-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-check-complete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-check-complete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-check-incomplete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-check-incomplete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-continue-apple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-continue-apple.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-continue-facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-continue-facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-continue-google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-continue-google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-continue-hagerty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-continue-hagerty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-date.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-date.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-inbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-inbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-message.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-notification-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-notification-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-password-hide.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-password-hide.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-password-show.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-password-show.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-select-toggle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-select-toggle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-state-error.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-state-error.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-tick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-tick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon-time.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon-time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/icon_paper_clip_x2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon_paper_clip_x2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/img-3-2-template-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/img-3-2-template-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/img-no-vehicles-found-1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/img-no-vehicles-found-1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/logosa.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logosa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/my-collection-no-cover-image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/my-collection-no-cover-image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/presets-circle-mask.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/presets-circle-mask.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/reviews-slider-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/reviews-slider-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/signup-newsletter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/signup-newsletter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/slider-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/slider-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/spinner.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/spinner.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/star-empty-32.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/star-empty-32.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/star-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/star-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/star-full-32.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/star-full-32.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/star-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/star-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/star-half-32.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/star-half-32.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/star-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/star-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/svg-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/svg-sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/timepicker-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/timepicker-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/user-no-photo-template.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/user-no-photo-template.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/DefaultLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Error/Error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Error/Error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Error/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Error/Error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Error/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Error/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/FeaturedCarSection/FeaturedCarSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedCarSection/FeaturedCarSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/FeaturedCarSection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedCarSection/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MobileSearchModal/MobileSearchModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileSearchModal/MobileSearchModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MobileSearchModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileSearchModal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/About/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/CarDetails/CarDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/CarDetails/CarDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/CarDetails/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/CarDetails/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/HowToList/HowToList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/HowToList/HowToList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/HowToList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/HowToList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/HowToRent/HowToRent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/HowToRent/HowToRent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/HowToRent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/HowToRent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/ListCar/ListCar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ListCar/ListCar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/ListCar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/ListCar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/PrivacyAndPolicies/PrivacyAndPolicies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/PrivacyAndPolicies/PrivacyAndPolicies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/PrivacyAndPolicies/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/PrivacyAndPolicies/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/TermOfService/TermOfService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/TermOfService/TermOfService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/TermOfService/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/TermOfService/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/RecentlyAddedSection/RecentlyAddedSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentlyAddedSection/RecentlyAddedSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/RecentlyAddedSection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentlyAddedSection/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SearchField/SearchField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchField/SearchField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SearchField/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchField/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SignIn/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647991428_php623a5a846466b.jpg.full198c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647991428_php623a5a846466b.jpg.full198c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647991428_php623a5a846466b.jpg.small198c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647991428_php623a5a846466b.jpg.small198c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647991431_php623a5a8799248.jpg.smalla4f5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647991431_php623a5a8799248.jpg.smalla4f5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647991434_php623a5a8ad8d0d.jpg.small65f1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647991434_php623a5a8ad8d0d.jpg.small65f1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647991437_php623a5a8da24ac.jpg.small38dc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647991437_php623a5a8da24ac.jpg.small38dc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647991440_php623a5a907c71f.jpg.small7189.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647991440_php623a5a907c71f.jpg.small7189.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647992473_php623a5e996b5e7.jpg.full4564.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647992473_php623a5e996b5e7.jpg.full4564.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647992473_php623a5e996b5e7.jpg.small4564.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647992473_php623a5e996b5e7.jpg.small4564.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647992476_php623a5e9c902e5.jpg.small710f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647992476_php623a5e9c902e5.jpg.small710f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647992479_php623a5e9f7fc97.jpg.smallcabd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647992479_php623a5e9f7fc97.jpg.smallcabd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647992482_php623a5ea251413.jpg.small89bd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647992482_php623a5ea251413.jpg.small89bd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647993357_php623a620d9e55f.jpg.fulla323.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647993357_php623a620d9e55f.jpg.fulla323.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647993357_php623a620d9e55f.jpg.smalla323.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647993357_php623a620d9e55f.jpg.smalla323.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647993382_php623a622617e60.jpg.small6106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647993382_php623a622617e60.jpg.small6106.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647993383_php623a6227328bb.jpg.smalle65d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647993383_php623a6227328bb.jpg.smalle65d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647993384_php623a62282ffb3.jpg.small1f59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647993384_php623a62282ffb3.jpg.small1f59.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647993385_php623a62291c44a.jpg.small60bc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647993385_php623a62291c44a.jpg.small60bc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647994040_php623a64b8d57b8.jpg.fulld6fd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647994040_php623a64b8d57b8.jpg.fulld6fd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647994040_php623a64b8d57b8.jpg.smalld6fd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647994040_php623a64b8d57b8.jpg.smalld6fd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647994043_php623a64bbe273b.jpg.small4aff.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647994043_php623a64bbe273b.jpg.small4aff.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647994046_php623a64bedb970.jpg.small8291.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647994046_php623a64bedb970.jpg.small8291.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8350/1647994049_php623a64c1e2968.jpg.smalla936.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8350/1647994049_php623a64c1e2968.jpg.smalla936.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650495087_php62608e6f10b32.jpg.full415f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650495087_php62608e6f10b32.jpg.full415f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650495169_php62608ec1c2a44.jpg.smalle922.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650495169_php62608ec1c2a44.jpg.smalle922.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650495214_php62608eee540de.jpg.small61d5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650495214_php62608eee540de.jpg.small61d5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650846917_php6265ecc5b3c98.jpg.full2d48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650846917_php6265ecc5b3c98.jpg.full2d48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650846917_php6265ecc5b3c98.jpg.small2d48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650846917_php6265ecc5b3c98.jpg.small2d48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650846956_php6265ecec2eb99.jpg.small2d48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650846956_php6265ecec2eb99.jpg.small2d48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650846978_php6265ed02e72ff.jpg.small2d48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650846978_php6265ed02e72ff.jpg.small2d48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650847038_php6265ed3e4eed9.jpg.small2d48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650847038_php6265ed3e4eed9.jpg.small2d48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650847041_php6265ed410c6c0.jpg.small2d48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650847041_php6265ed410c6c0.jpg.small2d48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1650848958_php6265f4be88f4c.jpg.small2d48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1650848958_php6265f4be88f4c.jpg.small2d48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509288_php627008282f07e.jpg.full0e90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509288_php627008282f07e.jpg.full0e90.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509288_php627008282f07e.jpg.small0e90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509288_php627008282f07e.jpg.small0e90.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509291_php6270082b7b4f0.jpg.small361a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509291_php6270082b7b4f0.jpg.small361a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509294_php6270082e9b15d.jpg.smallfd4f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509294_php6270082e9b15d.jpg.smallfd4f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509297_php62700831b259f.jpg.smalle5ec.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509297_php62700831b259f.jpg.smalle5ec.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509300_php62700834b4e67.jpg.small16d9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509300_php62700834b4e67.jpg.small16d9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509303_php62700837c0376.jpg.smalla646.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509303_php62700837c0376.jpg.smalla646.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651509306_php6270083ab3bed.jpg.small8923.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651509306_php6270083ab3bed.jpg.small8923.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651609566_php62718fdec9e4c.jpg.smalle807.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651609566_php62718fdec9e4c.jpg.smalle807.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651609570_php62718fe208e64.jpg.fulle807.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651609570_php62718fe208e64.jpg.fulle807.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651609570_php62718fe208e64.jpg.smalle807.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651609570_php62718fe208e64.jpg.smalle807.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651609573_php62718fe52ea29.jpg.smalle807.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651609573_php62718fe52ea29.jpg.smalle807.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651609576_php62718fe83a867.jpg.smalle807.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651609576_php62718fe83a867.jpg.smalle807.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8500/1651609579_php62718feb632e7.jpg.smalle807.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8500/1651609579_php62718feb632e7.jpg.smalle807.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651617687_php6271af97b3d7f.jpg.fullbf56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651617687_php6271af97b3d7f.jpg.fullbf56.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651617687_php6271af97b3d7f.jpg.smallbf56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651617687_php6271af97b3d7f.jpg.smallbf56.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651617736_php6271afc85d458.jpg.smalle6fe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651617736_php6271afc85d458.jpg.smalle6fe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651617819_php6271b01b53330.jpg.smalleb92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651617819_php6271b01b53330.jpg.smalleb92.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631390_php6271e51e8698d.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631390_php6271e51e8698d.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631393_php6271e52164bf8.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631393_php6271e52164bf8.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631395_php6271e523c7944.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631395_php6271e523c7944.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631398_php6271e5264c461.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631398_php6271e5264c461.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631400_php6271e52892ee0.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631400_php6271e52892ee0.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631403_php6271e52b43eb3.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631403_php6271e52b43eb3.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631405_php6271e52dda54b.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631405_php6271e52dda54b.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631408_php6271e530db3e6.jpg.full3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631408_php6271e530db3e6.jpg.full3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/car_images/8550/1651631408_php6271e530db3e6.jpg.small3ec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/car_images/8550/1651631408_php6271e530db3e6.jpg.small3ec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page/1637148830.8175_d39b5bc1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page/1637148830.8175_d39b5bc1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page/1638251902.1112_r0p075c9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page/1638251902.1112_r0p075c9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page/1638251902.2549_r0p075c9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page/1638251902.2549_r0p075c9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643912812.9197_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643912812.9197_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643912839.9809_1ojefbhl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643912839.9809_1ojefbhl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643912866.1685_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643912866.1685_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643912897.2069_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643912897.2069_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643912938.1381_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643912938.1381_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643912979.5439_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643912979.5439_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643912996.6956_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643912996.6956_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643913017.1115_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643913017.1115_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643913032.7096_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643913032.7096_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643913046.8314_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643913046.8314_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643913065.5934_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643913065.5934_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/home_page_presets/1643913232.691_1ojefbhl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/home_page_presets/1643913232.691_1ojefbhl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642358767_phpuvywFN.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642358767_phpuvywFN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642358837_phpbJ7W2v.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642358837_phpbJ7W2v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642358872_phprA5ql0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642358872_phprA5ql0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642358954_phppQ3riu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642358954_phppQ3riu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642407454_phpkFjG8o.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642407454_phpkFjG8o.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642407480_phpqS7XX1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642407480_phpqS7XX1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642407501_phpNbVB35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642407501_phpNbVB35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642407522_php2MkkXn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642407522_php2MkkXn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642407915_phpZ9fn7E.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642407915_phpZ9fn7E.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642407930_phpLVFtQw.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642407930_phpLVFtQw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642407983_phplo218P.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642407983_phplo218P.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642408002_phplcA8oK.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642408002_phplcA8oK.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642414427_phpjN5OIo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642414427_phpjN5OIo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1642414542_phpZs2glV.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1642414542_phpZs2glV.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1643097043_phpdIMoP7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1643097043_phpdIMoP7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1643119841_phpqOqdkQ.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1643119841_phpqOqdkQ.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/lp/1643119870_phpTevBi2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/lp/1643119870_phpTevBi2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/users/52000/1647986643_php623a47d368197.png.fulldfcc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/users/52000/1647986643_php623a47d368197.png.fulldfcc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/users/52000/1647986830_php623a488e201e2.png.fulldfcc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/users/52000/1647986830_php623a488e201e2.png.fulldfcc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/files/users/52000/1647986830_php623a488e201e2.png.smalldfcc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/users/52000/1647986830_php623a488e201e2.png.smalldfcc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/BookingCar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookingCar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/carModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/carRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="29LXjkawYMF5FlLuP2HvfguAdSD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/pages" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="head" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ExtraVagantForeigns/client/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="heroku-postbuild" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="heroku-postbuild" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="npm.heroku-postbuild" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ff0576f-608c-47c3-bc55-11879a379222" name="Changes" comment="" />
+      <created>1652893477400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652893477400</updated>
+      <workItem from="1652893478763" duration="14358000" />
+      <workItem from="1652913649717" duration="11646000" />
+      <workItem from="1652952366040" duration="526000" />
+      <workItem from="1652955999285" duration="614000" />
+      <workItem from="1653022664122" duration="18000" />
+      <workItem from="1653112056250" duration="6350000" />
+      <workItem from="1653151456081" duration="6931000" />
+      <workItem from="1653162823900" duration="24657000" />
+      <workItem from="1653226224002" duration="185000" />
+      <workItem from="1653283702667" duration="18000" />
+      <workItem from="1653323923411" duration="663000" />
+      <workItem from="1653932935533" duration="458000" />
+      <workItem from="1654080825993" duration="43000" />
+      <workItem from="1655209136083" duration="847000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/client" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/pages/Register.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

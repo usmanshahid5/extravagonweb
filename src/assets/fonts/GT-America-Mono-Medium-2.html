@@ -1,0 +1,597 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+                    <meta name="description" content="" />
+                <meta name="keywords" content="" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <meta name="format-detection" content="telephone=no" />
+                            <title>DriveShare</title>
+                    <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/modern-reset.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/jquery-ui.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/jquery-ui.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/jquery.jcrop.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/intlTelInput.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/styles.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/cke.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/dev/main.css" />
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?language=en&libraries=geometry,places&key=AIzaSyDPeggdIr2a2Ba_Lp7d64RyLjfuDkCChik"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/jquery-ui-1.12.1.min.js"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/jquery-ui-touch-punch.js"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/dev/logger.min.js"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/dev/log.js"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/dev/main.js"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/dev/tealium.js"></script>
+        <script type="text/javascript" src="https://driveshare.com/site/js/dev/tealium_listing.js"></script>
+        <script type="text/javascript" src="https://tags.tiqcdn.com/utag/hagerty/driveshare/prod/utag.js"></script>        <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+        <!--[if IE 9]><link rel="stylesheet" type="text/css" href="https://driveshare.com/site/css/ie9.css" /><![endif]-->
+            <script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>
+    <script>
+        function registerAmoEvent(event, value)
+        {
+            var transactionProperties = '';
+            if (event == 'SignUpStarted') {
+                transactionProperties = 'ev_member_signup_start=1';
+            } else if (event == 'SignUpCompleted') {
+                transactionProperties = 'ev_member_signup_create=1';
+            } else if (event == 'BookingCompleted') {
+                transactionProperties = 'ev_booking_unconfirmed=1';
+                if (typeof value != 'undefined') {
+                    transactionProperties += '&ev_revenue_unconfirmed=' + value;
+                }
+            } else if (event == 'BookingConfirmed') {
+                transactionProperties = 'ev_booking_confirmed=1';
+                if (typeof value != 'undefined') {
+                    transactionProperties += '&ev_revenue_confirmed=' + value;
+                }
+            } else if (event == 'ListingStarted') {
+                transactionProperties = 'ev_list_car_first=1';
+            } else if (event == 'ListingCompleted') {
+                transactionProperties = 'ev_list_car_final=1';
+            }
+            var data = {
+                eventType: "transaction",
+                transactionProperties : transactionProperties,
+                segment : "",
+                searchSegment : "",
+                sku : "",
+                userid : "5126",
+                pixelHost : "pixel.everesttech.net",
+                allow3rdPartyPixels: 1
+            };
+            if (transactionProperties != '') {
+                (function() {
+                    var f = function() {
+                        EF.init(data);
+                        EF.main();
+                    };
+                    window.EF = window.EF || {};
+                    if (window.EF.main) {
+                        f();
+                        return;
+                    }
+                    window.EF.onloadCallbacks = window.EF.onloadCallbacks || [];
+                    window.EF.onloadCallbacks[window.EF.onloadCallbacks.length] = f;
+                    if (!window.EF.jsTagAdded) {
+                        var efjs = document.createElement('script'); efjs.type = 'text/javascript'; efjs.async = true;
+                        efjs.src = 'https://www.everestjs.net/static/st.v3.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(efjs, s);
+                        window.EF.jsTagAdded=1;
+                    }
+                })();
+            }
+        }
+    </script>
+            <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window,document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '231486804279252');
+            fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" src="https://www.facebook.com/tr?id=231486804279252&ev=PageView&noscript=1" />
+        </noscript>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-833944841"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-833944841');
+        var google_tag_id = 'AW-833944841';
+
+        function registerGoogleAdsEvent(event, value)
+        {
+            if (typeof gtag == 'function') {
+                var conversion_label = '';
+                if (event == 'SignUpStarted') {
+                    conversion_label = '1_0zCJDWh4UBEIn6040D';
+                } else if (event == 'SignUpCompleted') {
+                    conversion_label = 'vMVqCNnfoYYBEIn6040D';
+                } else if (event == 'BookingCompleted') {
+                    conversion_label = 'XwO7CKOIkHoQifrTjQM';
+                } else if (event == 'BookingConfirmed') {
+                    conversion_label = 'r5nTCKnAuoYBEIn6040D';
+                } else if (event == 'ListingStarted') {
+                    conversion_label = 'uLkxCJ67uoYBEIn6040D';
+                } else if (event == 'ListingCompleted') {
+                    conversion_label = 'n9PKCISHkIUBEIn6040D';
+                }
+                if (conversion_label != '') {
+                    if (typeof value == 'undefined') {
+                        gtag('event', 'conversion', {'send_to': google_tag_id + '/' + conversion_label});
+                    } else {
+                        gtag('event', 'conversion', {'send_to': google_tag_id + '/' + conversion_label, 'value': value, 'currency': 'USD'});
+                    }
+                }
+            }
+        }
+    </script>
+            <!-- Start of driveshare Zendesk Widget script -->
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=fcf6859f-ae62-4ada-811b-f06845878f0b"></script>
+        <script type="text/javascript">
+            window.zESettings = {
+                webWidget: {
+                    offset: {
+                        horizontal: '0px',
+                        vertical: '80px',
+                        mobile: {
+                            horizontal: '0px',
+                            vertical: '70px'
+                        }
+                    }
+                }
+            };
+        </script>
+        <!-- End of driveshare Zendesk Widget script -->
+            </head>
+    <body>
+    <script>(function(a,b,c,d){
+a='//tags.tiqcdn.com/utag/hagerty/driveshare/prod/utag.js';
+b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);})();</script>    <input type="hidden" id="http_root" value="https://driveshare.com" />
+    <input type="hidden" id="page" value="site" />
+    <input type="hidden" id="djs-user" value="0">
+    <input type="hidden" id="djs-email" value="">
+                <header class="main-header" data-country-code="US">
+            <div class="main-header__sticky-wrapper is-sticky display-block is-active">
+                <div id="mh-border" class="main-header__sticky-border">
+                    <div class="center col-12 main-header__center">
+                        <button type="button" class="mh-navbar__toggler" data-open="header-navbar">
+                            <svg class="icon icon--font-size">
+                                <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#sandwich"></use>
+                            </svg>
+                        </button>
+                        <a href="https://driveshare.com" class="main-header__logo">
+                            <img class="main-header__logo-img" src="https://driveshare.com/site/images/hdc-logo.svg"/>
+                        </a>
+                        <div id="header-navbar" class="mh-navbar">
+                            <div class="mh-navbar__logo-wrap">
+                                <button type="button" class="mh-navbar__close-button" data-close="header-navbar" data-open="navbar-logo">
+                                    <img class="mh-navbar__close-button-icon" src="https://driveshare.com/site/images/close-52-48.svg" alt="icon close mobile menu"/>
+                                </button>
+                                <a id="navbar-logo" href="https://driveshare.com" class="mh-navbar__logo">
+                                    <img class="mh-navbar__logo-img" src="https://driveshare.com/site/images/hdc-logo.svg"/>
+                                </a>
+                            </div>
+                            <div class="mh-nav">
+                                <a href="https://driveshare.com/search/" class="mh-nav__item">
+                                    <span class="mh-nav__item__inner">Rent a car</span> </a>
+                                <a href="https://driveshare.com/list-a-car/" class="mh-nav__item">
+                                    <span class="mh-nav__item__inner">List a car</span> </a>
+                                <a href="https://driveshare.com/about/" class="mh-nav__item">
+                                    <span class="mh-nav__item__inner">About</span> </a>
+                            </div>
+                        </div>
+                        <div id="main-header__controls" class="main-header__controls">
+                                                            <div class="main-header__controls-item dn-xxs">
+                                    <button type="button" class="btn btn--main-header-search-toggle-btn btn-no-bg btn-no-bg--head js-main-header-search-toggle-btn" data-toggle="main-header-search">
+                                        <svg class="icon icon--m-r-0">
+                                            <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-search"></use>
+                                        </svg>
+                                        <span class="dn-m">Search cars</span>
+                                    </button>
+                                </div>
+                                                                                        <div id="auth_signup" class="main-header__controls-item dn-s">
+                                    <a href="https://driveshare.com/sign-up/" class="btn btn-no-bg btn-no-bg--head">
+                                        <span>Sign up</span> </a>
+                                </div>
+                                <div id="auth_login" class="main-header__controls-item dn-s">
+                                    <button type="button" class="btn btn-no-bg btn-no-bg--head" data-open="mdl-signin">
+                                        <span>Log in</span>
+                                    </button>
+                                </div>
+                                <div id="auth_mobile" class="main-header__controls-item dn df-s">
+                                    <button type="button" class="btn btn-no-bg btn-no-bg--head" data-drop="top-nav-menu">
+                                        <img src="https://driveshare.com/site/images/user-no-photo-template.svg" class="icon icon--24 main-header__avatar" alt=""/>
+                                    </button>
+                                    <ul id="top-nav-menu" class="dropdown dropdown-1 dropdown-1--head dropdown-1--head--menu js-dropdown">
+                                        <li class="dropdown-1__item">
+                                            <a href="https://driveshare.com/sign-up/" class="dropdown-1__link">
+                                                <span>Sign up</span> </a>
+                                        </li>
+                                        <li class="dropdown-1__item">
+                                            <button type="button" class="dropdown-1__link" data-open="mdl-signin">
+                                                <span>Log in</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                                        </div>
+                    </div>
+                </div>
+                <div id="main-header-search" class="main-header__search">
+                    <div class="center col-12 main-header__search-center">
+                        <div class="form-item-wrap form-item-wrap--no-border form-item-wrap--main-header-search">
+                            <input id="main-header-search-field" type="text" class="form-item form-item--main-header-search js-google-places-autocomplete" data-fill-enable="btn-clear-main-header-search" role="presentation"  autocomplete="off" placeholder="Enter address or city" />
+                        </div>
+                        <button id="btn-clear-main-header-search" type="button" class="btn-txt btn-txt--main-header-search-clear hidden-i-flex js-self-close" data-clear-field="main-header-search-field">Clear</button>
+                        <button id="djs-header-search-btn" class="btn btn-primary btn-primary--s-small btn--main-header-search">
+                            Search
+                        </button>
+                        <button class="main-header__search-close" data-close="main-header-search mh-border">
+                            <svg class="icon icon--14">
+                                <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+<main>
+    <div class="error-page col-12 center">
+        <div class="col-r-10-12 col-m-fw center ml-a mr-a">
+            <img class="error-page__img" src="https://driveshare.com/site/images/error.svg" alt="">
+            <div class="txt-lead-1 t-s t-s-s b-s b-s-s">Looks like the wheels have come off.</div>
+            <div class="title-h-3 t-s t-s-s b-s b-s-s">Let’s get back on track</div>
+            <div class="error-page__btn-group btn-group btn-group--center btn-group--full-w">
+                <div class="btn-group__item">
+                    <a href="/" class="btn btn-primary btn-primary--medium btn-primary--s-default">
+                        <svg class="icon">
+                            <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-arrow-left"></use>
+                        </svg>
+                        <span>Turn back</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer class="footer">
+        <div class="center col-12 footer__center">
+            <div class="footer__top">
+                <div class="footer__col">
+                    <div class="footer__col-title">Renters</div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/search/" class="footer__list-link">Find a Car</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/why-rent/" class="footer__list-link">Why Rent?</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/faq-renter/" class="footer__list-link">Renter FAQ</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/how-to-rent/" class="footer__list-link">How to Rent</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__col-title">Owners</div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/list-a-car/" class="footer__list-link">List a Car</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/why-list/" class="footer__list-link">Why List?</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/faq-owner/" class="footer__list-link" >Owner FAQ</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/how-to-list/" class="footer__list-link">How to List</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__col-title">More from Hagerty</div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="https://www.hagerty.com/" class="footer__list-link" target="_blank">Hagerty</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://www.hagerty.com/articles-videos" class="footer__list-link" target="_blank">Articles &amp; Videos</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://www.hagerty.com/insurance/classic-car-insurance" class="footer__list-link" target="_blank">Collector Car Insurance</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://www.hagerty.com/valuation-tools" class="footer__list-link" target="_blank">Valuation Tools</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://www.theshopbyhagerty.com/" class="footer__list-link" target="_blank">The Shop</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://driveshare.com/dreamdrive" class="footer__list-link" target="_blank">Dream Drive</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__col-title">Account</div>
+                    <ul class="footer__list">
+                                                    <li class="footer__list-item">
+                                <button type="button" class="footer__list-link" data-open="mdl-signin">Log In</button>
+                            </li>
+                                                </ul>
+                </div>
+            </div>
+            <div class="footer__social">
+                <div class="footer__social-title">Social media</div>
+                <div class="footer__social-list">
+                    <div class="footer__social-list-item">
+                        <a href="https://www.facebook.com/HagertyDriveShare/" class="footer__social-link" target="_blank">
+                            <svg class="icon icon--24">
+                                <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__social-list-item">
+                        <a href="https://twitter.com/HDriveshare" class="footer__social-link" target="_blank">
+                            <svg class="icon icon--24">
+                                <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__social-list-item">
+                        <a href="https://www.instagram.com/hagertydriveshare/" class="footer__social-link" target="_blank">
+                            <svg class="icon icon--24">
+                                <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__social-list-item">
+                        <a href="https://driveshare.home.blog/" class="footer__social-link" target="_blank">
+                            <svg class="icon icon--24">
+                                <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__app-store">
+                    <a href="https://itunes.apple.com/us/app/driveshare-by-hagerty/id1031581546" target="_blank" class="footer__app-store__item">
+                        <img src="https://driveshare.com/site/images/apple-store-1x.png" srcset="https://driveshare.com/site/images/apple-store-1x.png 1x, https://driveshare.com/site/images/apple-store-2x.png 2x" alt="AppleStore">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.driveshare.app.android.driveshare" target="_blank" class="footer__app-store__item">
+                        <img src="https://driveshare.com/site/images/google-store-1x.png" srcset="https://driveshare.com/site/images/google-store-1x.png 1x, https://driveshare.com/site/images/google-store-2x.png 2x" alt="PlayMarket">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__message col-r-7-12 col-l-r-8-10 col-m-fw txt-4">
+                                DriveShare is currently not available for vehicles registered in NY. Renters must meet minimum driver requirements. For FAQ, user policies, and terms and conditions, visit driveshare.com.
+                Hagerty DriveShare is a common law trademark of the Hagerty Group LLC, ©2022 The Hagerty Group, LLC. All Rights Reserved. The Hagerty Group, LLC is a wholly owned subsidiary of Hagerty, Inc.
+            </div>
+            <ul class="footer__list-bottom">
+                <li class="footer__list-bottom-item">
+                    <a href="https://driveshare.com/terms-of-service/" class="footer__list-bottom-link">Terms of Service</a>
+                </li>
+                <li class="footer__list-bottom-item">
+                    <a href="https://driveshare.com/privacy-notice/" class="footer__list-bottom-link">Privacy</a>
+                </li>
+                <li class="footer__list-bottom-item">
+                    <a href="https://driveshare.com/policies/" class="footer__list-bottom-link">Policies</a>
+                </li>
+                <li class="footer__list-bottom-item">
+                    <a href="https://driveshare.com/faq-procedures/" class="footer__list-bottom-link">Procedures</a>
+                </li>
+                <li class="footer__list-bottom-item">
+                    <a href="https://driveshare.com/about/" class="footer__list-bottom-link">About</a>
+                </li>
+                <li class="footer__list-bottom-item">
+                    <a href="https://driveshare.com/faq-insurance/" class="footer__list-bottom-link">Insurance FAQ</a>
+                </li>
+                <li class="footer__list-bottom-item">
+                    <a href="https://driveshare.com/faq-clubs/" class="footer__list-bottom-link">Car Club FAQ</a>
+                </li>
+                <li class="footer__list-bottom-item">
+                    <a href="https://support.driveshare.com/" class="footer__list-bottom-link" target="_blank">Support</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+<div class="i"></div>
+<div id="mdl-signin" class="mdl-wrap mdl-wrap--full-screen">
+    <div id="signin" class="mdl mdl--full-screen hidden-ib active">
+        <div class="mdl__fs-header">
+            <div class="mdl__fs-header-title title-h-5">User authorization</div>
+            <button class="mdl__cross js-mdl-close"></button>
+        </div>
+        <div class="mdl__fs-body">
+            <div class="mdl__fs-content center col-12">
+                <div class="mdl__signin">
+                    <div class="mdl__signin-left">
+                        <h2 class="title-h-2 t-l t-s-l b-s b-s-s">Log in</h2>
+                        <div id="login_error" class="banner banner--alert mt-l">
+                            <svg class="icon icon--24 icon--banner">
+                                <use xlink:href="https://driveshare.com/site/images/svg-sprite.svg#icon-alert"></use>
+                            </svg>
+                            <div>
+                                <span><strong>Authorization Failed</strong></span>
+                                <span>Invalid email or password</span>
+                            </div>
+                        </div>
+                        <div class="form t-m t-s-m js-zindex-parent">
+                            <div class="form-cell js-zindex">
+                                <label for="" class="form-label">Email</label>
+                                <div class="form-item-wrap">
+                                    <input id="login_email" name="login_email" type="email" class="form-item"/>
+                                </div>
+                            </div>
+                            <div class="form-cell js-zindex">
+                                <label for="" class="form-label">Password</label>
+                                <div class="form-item-wrap">
+                                    <input id="login_password" name="login_password" type="password" class="form-item form-item--password"/>
+                                    <button class="form-item-wrap__btn-password hide" data-password="login_password"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title-h-5 fw-400 t-l t-s-l b-s b-s-s">
+                            Forgot your
+                            <button type="button" class="link-txt" data-open="password-recovery" data-close="signin">
+                                password
+                            </button>
+                            ?
+                        </div>
+                        <div class="btn-group">
+                            <div class="btn-group__item">
+                                <button id="login_form_submit" class="btn btn-primary btn-primary--medium btn-primary--s-default">
+                                    Log in
+                                </button>
+                            </div>
+                            <div class="btn-group__item">
+                                <a class="btn btn-primary btn-primary--outline btn-primary--medium btn-primary--s-default" href="https://driveshare.com/sign-up/" title="Sign Up"> Create account </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl__signin-right">
+                        <h2 class="title-h-3 t-m b-s dn-m">Or continue with...</h2>
+                        <div class="signup-social signup-social--signin t-l t-xs-0">
+                            <a id="login_hagerty_oauth" href="javascript:void(0)" class="signup-social__item signup-social__item--hagerty">Continue with Hagerty</a>
+                            <a id="login_facebook_oauth" href="javascript:void(0)" class="signup-social__item signup-social__item--facebook">Continue with Facebook</a>
+                            <a id="login_google_oauth" href="javascript:void(0)" class="signup-social__item signup-social__item--google">Continue with Google</a>
+                            <a id="login_apple_oauth" href="javascript:void(0)" class="signup-social__item signup-social__item--apple">Continue with Apple</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="password-recovery" class="mdl mdl--full-screen hidden-ib">
+    <div class="mdl__fs-header">
+        <div class="mdl__fs-header-title title-h-5">Password recovery</div>
+        <button class="mdl__cross js-mdl-close" data-close="password-recovery" data-open="password-settings"></button>
+    </div>
+    <div class="mdl__fs-body">
+        <div class="mdl__fs-content center col-12">
+            <div class="mdl__signin">
+                <div class="offset-left-1 offset-left-m-0 col-r-4-12 col-m-fw">
+                    <div id="reset-password" class="hidden-block active">
+                        <h2 class="title-h-2 t-l t-s-0 b-s b-s-s ta-m-c">Reset your password</h2>
+                        <div class="form t-m t-s-m js-zindex-parent">
+                            <div class="form-cell js-zindex">
+                                <label for="" class="form-label">Your email address</label>
+                                <div class="form-item-wrap form-item-wrap--fw">
+                                    <input type="email" class="form-item"/>
+                                </div>
+                                <div class="form-item-bg-sign form-item-bg-sign--absolute form-item-bg-sign--error"></div>
+                            </div>
+                        </div>
+                        <div class="btn-group btn-group--m-center mt-s fw">
+                            <div class="btn-group__item">
+                                <button id="password-recovery-cancel" type="button" class="btn btn-primary btn-primary--outline btn-primary--medium btn-primary--s-default" data-close="password-recovery">
+                                    <svg class="icon dn-s">
+                                        <use xlink:href="/site/images/svg-sprite.svg#icon-arrow-left"></use>
+                                    </svg>
+                                    <span>Back</span>
+                                </button>
+                            </div>
+                            <div class="btn-group__item">
+                                <!-- temporary added opening result message mdl (needs only for markup process) / need to remove data-open/data-close from btn-->
+                                <button id="btn_password_reset" class="btn btn-primary btn-primary--medium btn-primary--s-default">
+                                    Reset password
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- add class 'active' to display block -->
+                    <div id="reset-password-failed" class="ta-m-c hidden-block">
+                        <svg class="icon icon--pass-recovery">
+                            <use xlink:href="/site/images/svg-sprite.svg#icon-clear"></use>
+                        </svg>
+                        <h2 class="title-h-2 t-l t-s-l b-s b-s-s">
+                            Reset password failed
+                        </h2>
+                        <div class="txt-1 t-m t-s-m b-s b-s-s">
+                            Such user did not register
+                        </div>
+                        <div class="btn-group">
+                            <div class="btn-group__item">
+                                <button type="button" class="btn btn-primary btn-primary--medium" data-open="reset-password" data-close="reset-password-failed">
+                                    Try again
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- add class 'active' to display block -->
+                    <div id="reset-password-success" class="ta-m-c hidden-block">
+                        <svg class="icon icon--pass-recovery">
+                            <use xlink:href="/site/images/svg-sprite.svg#icon-check-complete-outline"></use>
+                        </svg>
+                        <h2 class="title-h-2 t-l t-s-l b-s b-s-s">
+                            Reset password email sent
+                        </h2>
+                        <div class="txt-1 t-m t-s-m b-s b-s-s">
+                            To complete your password reset, please check the email we sent you.
+                        </div>
+                        <div class="btn-group">
+                            <div class="btn-group__item">
+                                <button id="password_return_to_login" type="button" class="btn btn-primary btn-primary--medium" data-open="reset-password" data-close="reset-password-success">
+                                    Return to previous page
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="spinner" class="spinner-background">
+    <div class="spinner spinner--pos">
+        <div></div>
+    </div>
+</div>
+<input type="hidden" id="oauth_current_path" value="https://driveshare.com/site/fonts/GT-America-Mono-Medium.woff/" />
+<input type="hidden" id="oauth_link_facebook" value="https://www.facebook.com/dialog/oauth?client_id=1572645422806479&redirect_uri=https%3A%2F%2Fdriveshare.com%2Foauth%2Ffacebook%2F&response_type=code&scope=email" />
+<input type="hidden" id="oauth_link_google" value="https://accounts.google.com/o/oauth2/auth?redirect_uri=https%3A%2F%2Fdriveshare.com%2Foauth%2Fgoogle%2F&response_type=code&client_id=118873032045-03iqmu7mdinao8pvpsugfkvd9fiba8r0.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile" />
+<input type="hidden" id="oauth_link_apple" value="https://appleid.apple.com/auth/authorize?client_id=com.driveshare.web&redirect_uri=https%3A%2F%2Fdriveshare.com%2Foauth%2Fapple%2F&response_type=code&response_mode=form_post&scope=email+name&state=fgl2lpv0ara2d1rmblmqbqrvsu" />
+<script type="text/javascript" src="https://driveshare.com/site/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/ofi.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/svg4everybody.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/jquery.appear.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/jquery.formstyler.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/jquery.multiselect.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/jquery.jcrop.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/intlTelInput-jquery.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/jquery.inputmask.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/jquery.ba-throttle-debounce.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/slick.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/main.min.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/dev/common.js"></script>
+<script type="text/javascript" src="https://driveshare.com/site/js/dev/password_reset.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-104224969-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+                <script type="text/javascript">
+            window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+            heap.load("2401383126");
+        </script>
+        </body>
+</html>
