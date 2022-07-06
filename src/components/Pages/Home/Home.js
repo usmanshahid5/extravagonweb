@@ -1,102 +1,140 @@
-import React                   from 'react';
+import React,{useEffect}                   from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
 import RecentlyAddedSection    from '../../RecentlyAddedSection';
 import FeaturedCarSection      from '../../FeaturedCarSection';
-import SearchField             from '../../SearchField';
+import SearchField from '../../SearchField';
+import googleAuth  from '../../../GoogleAuth';
+
 
 class Home extends React.Component {
+
   render() {
     return (
       <main className="center col-12 t-l">
         <section className="hero mb-l"
-                 style={ { backgroundImage: `url(${ require('../../../files/home_page/1637148830.8175_d39b5bc1.jpg') })` } }>
+                 style={ {backgroundImage: `url(${ require('../../../files/home_page/Background.jpg') })` } }>
+
           <h2 className="hero__title title-d-1 c-white">Dream drives for rent</h2>
           <p className="hero__txt c-white">Book a car from a real person</p>
-          <div className="hero__btn-group btn-group btn-group--space-m">
+          <div  className=" hero__btn-group btn-group btn-group--space-m">
             <div className="btn-group__item">
               <NavLink
                 id="djs-home-heroshot-ntn-1"
                 className="btn btn-primary btn-primary--medium"
-                to={ { pathname: '/search/all' } }
+                to={ { pathname: '/search' } }
+
+
                 exact
               >
                 Browse vehicles
               </NavLink>
-            </div>
+
           </div>
+         </div>
         </section>
-        <form id="main-search-form" className="search-filter search-filter--home js-search-filter"
+        <form data-aos= "slide-up"  id="main-search-form" className="search-filter search-filter--home js-search-filter"
               action="https://ExtraVagant.com/search" method="post">
           <SearchField/>
         </form>
-        <ul id="djs-home-location-list" className="presets presets--home">
+        <ul data-aos= "slide-up" id="djs-home-location-list" className="presets presets--home">
           <li className="presets__item">
             <a href="LosAngelescarrentals.html" className="presets__item__link">
+              <NavLink
+                to={ { pathname: '/search/LosAngeles' } }
+                exact
+              >
               <div className="presets__img-wrap">
-                <img src={ require('../../../files/home_page_presets/1643912812.9197_1ojefbhl.png') } alt="Los Angeles"
+                <img src={ require('../../../files/home_page_presets/los_angeles.jpg') } alt="Los Angeles"
                      className="presets__img"/>
               </div>
-              <div className="presets__label">Los Angeles</div>
+                <div className="presets__label">Los Angeles</div></NavLink>
             </a>
           </li>
+
           <li className="presets__item">
             <a href="Miamicarrentals.html" className="presets__item__link">
+              <NavLink
+                to={ { pathname: '/search/miami' } }
+                exact
+              >
               <div className="presets__img-wrap">
-                <img src={ require('../../../files/home_page_presets/1643912839.9809_1ojefbhl.jpg') } alt="Miami"
+                <img src={ require('../../../files/home_page_presets/miami.jpg') } alt="Miami"
                      className="presets__img"/>
               </div>
-              <div className="presets__label">Miami</div>
+                <div className="presets__label">Miami</div></NavLink>
             </a>
           </li>
           <li className="presets__item">
             <a href="Phoenixcarrentals.html" className="presets__item__link">
+              <NavLink
+                to={ { pathname: '/search/phoenix' } }
+                exact
+              >
               <div className="presets__img-wrap">
-                <img src={ require('../../../files/home_page_presets/1643912866.1685_1ojefbhl.png') } alt="Phoenix"
+                <img src={ require('../../../files/home_page_presets/phoenix.jpg') } alt="Phoenix"
                      className="presets__img"/>
               </div>
-              <div className="presets__label">Phoenix</div>
+                <div className="presets__label">Phoenix</div></NavLink>
             </a>
           </li>
           <li className="presets__item">
             <a href="Austinrentalcars.html" className="presets__item__link">
+              <NavLink
+                to={ { pathname: '/search/Austin' } }
+                exact
+              >
               <div className="presets__img-wrap">
-                <img src={ require('../../../files/home_page_presets/1643912897.2069_1ojefbhl.png') } alt="Austin"
+                <img src={ require('../../../files/home_page_presets/austin.jpg') } alt="Austin"
                      className="presets__img"/>
               </div>
-              <div className="presets__label">Austin</div>
+                <div className="presets__label">Austin</div></NavLink>
             </a>
           </li>
           <li className="presets__item">
             <a href="Chicagorentalcars.html" className="presets__item__link">
+              <NavLink
+                to={ { pathname: '/search/Chicago' } }
+                exact
+              >
               <div className="presets__img-wrap">
-                <img src={ require('../../../files/home_page_presets/1643913232.691_1ojefbhl.png') } alt="Chicago"
+                <img src={ require('../../../files/home_page_presets/Chicago.jpeg') } alt="Chicago"
                      className="presets__img"/>
               </div>
-              <div className="presets__label">Chicago</div>
+                <div className="presets__label">Chicago</div></NavLink>
             </a>
           </li>
           <li className="presets__item">
             <a href="Atlantarentalcars.html" className="presets__item__link">
+              <NavLink
+                to={ { pathname: '/search/Atlanta' } }
+                exact
+              >
               <div className="presets__img-wrap">
-                <img src={ require('../../../files/home_page_presets/1643912938.1381_1ojefbhl.png') } alt="Atlanta"
+                <img src={ require('../../../files/home_page_presets/atlanta.jpg') } alt="Atlanta"
                      className="presets__img"/>
               </div>
-              <div className="presets__label">Atlanta</div>
+                <div className="presets__label">Atlanta</div></NavLink>
             </a>
           </li>
         </ul>
-
+        <div data-aos= "slide-up">
         <FeaturedCarSection/>
-
-        <section className="cta mt-xl">
+        </div>
+        <section data-aos= "slide-up" className="cta mt-xl animation-element">
           <div className="cta__inner">
-            <div className="cta__left">
+            <div className="cta__left" style={{marginLeft:"50px"}}>
               <div className="cta__label"><p>Hagerty ExtraVagant&trade;</p>
               </div>
-              <h2 className="cta__title">List your vehicle</h2>
-              <a id="djs-home-listing-btn" href="lp/list-a-car/index.html"
+              <h3 className="cta__title">List your vehicle</h3>
+              <NavLink
+                className="mh-nav__item"
+                to={ { pathname: '/listCar' } }
+                exact
+              >
+              <a style={{marginLeft:"20%"}}
+                id="djs-home-listing-btn" href="lp/list-a-car/index.html"
                  className="cta__btn btn btn-primary btn-primary--large btn-primary--s-medium">
-                Learn more </a>
+                Learn more </a></NavLink>
             </div>
             <div className="cta__right">
               <div className="cta__info">
@@ -143,69 +181,94 @@ class Home extends React.Component {
             </div>
           </div>
         </section>
-        <section className="t-l t-s-l">
+        <section data-aos= "slide-up" className="t-l t-s-l">
           <ul id="djs-home-category-list" className="presets presets--home">
             <li className="presets__item">
               <a href="rentaclassiccar.html" className="presets__item__link">
+                <NavLink
+                  to={ { pathname: '/drivingRentals' } }
+                  exact
+                >
                 <div className="presets__img-wrap">
-                  <img src={ require('../../../files/home_page_presets/1643912979.5439_1ojefbhl.png') }
+                  <img src={ require('../../../files/home_page_presets/car_rental.jpg') }
                        alt="Driving Rentals"
                        className="presets__img"/>
                 </div>
-                <div className="presets__label">Driving Rentals</div>
+                  <div className="presets__label">Driving Rentals</div></NavLink>
               </a>
             </li>
             <li className="presets__item">
               <a href="rentachauffeuredcar.html" className="presets__item__link">
+                <NavLink
+                  to={ { pathname: '/ChauffeuredRentals' } }
+                  exact
+                >
                 <div className="presets__img-wrap">
-                  <img src={ require('../../../files/home_page_presets/1643912996.6956_1ojefbhl.png') }
+                  <img src={ require('../../../files/home_page_presets/chauffeured.jpg') }
                        alt="Chauffeured Rentals"
                        className="presets__img"/>
                 </div>
-                <div className="presets__label">Chauffeured Rentals</div>
+                <div className="presets__label">Chauffeured Rentals</div></NavLink>
               </a>
             </li>
             <li className="presets__item">
               <a href="Filmandphotoshootcarrentals.html" className="presets__item__link">
+                <NavLink
+                  to={ { pathname: '/RentForShooting' } }
+                  exact
+                >
                 <div className="presets__img-wrap">
-                  <img src={ require('../../../files/home_page_presets/1643913017.1115_1ojefbhl.png') }
+                  <img src={ require('../../../files/home_page_presets/shooting.jpg') }
                        alt="Rent for Film, TV, Photo Shoots"
                        className="presets__img"/>
                 </div>
-                <div className="presets__label">Rent for Film, TV, Photo Shoots</div>
+                  <div className="presets__label">Rent for Film, TV, Photo Shoots</div></NavLink>
               </a>
             </li>
             <li className="presets__item">
               <a href="Fordmustangcarrental.html" className="presets__item__link">
+                <NavLink
+                  to={ { pathname: '/Mustang' } }
+                  exact
+                >
                 <div className="presets__img-wrap">
-                  <img src={ require('../../../files/home_page_presets/1643913032.7096_1ojefbhl.png') } alt="Mustang"
+                  <img src={ require('../../../files/home_page_presets/mustang.jpg') } alt="Mustang"
                        className="presets__img"/>
                 </div>
-                <div className="presets__label">Mustang</div>
+                  <div className="presets__label">Mustang</div></NavLink>
               </a>
             </li>
             <li className="presets__item">
               <a href="Chevroletcorvetterentals.html" className="presets__item__link">
+                <NavLink
+                  to={ { pathname: '/Corvette' } }
+                  exact
+                >
                 <div className="presets__img-wrap">
-                  <img src={ require('../../../files/home_page_presets/1643913046.8314_1ojefbhl.png') } alt="Corvette"
+                  <img src={ require('../../../files/home_page_presets/corvette.jpg') } alt="Corvette"
                        className="presets__img"/>
                 </div>
-                <div className="presets__label">Corvette</div>
+                  <div className="presets__label">Corvette</div></NavLink>
               </a>
             </li>
             <li className="presets__item">
               <a href="Porschecarrental.html" className="presets__item__link">
+                <NavLink
+                  to={ { pathname: '/Poarshe' } }
+                  exact
+                >
                 <div className="presets__img-wrap">
-                  <img src={ require('../../../files/home_page_presets/1643913065.5934_1ojefbhl.png') } alt="Porsche"
+                  <img src={ require('../../../files/home_page_presets/poarche.jpg') } alt="Porsche"
                        className="presets__img"/>
                 </div>
-                <div className="presets__label">Porsche</div>
+                  <div className="presets__label">Porsche</div></NavLink>
               </a>
             </li>
           </ul>
         </section>
-
+        <div data-aos= "slide-up">
         <RecentlyAddedSection/>
+        </div>
       </main>
     )
   }

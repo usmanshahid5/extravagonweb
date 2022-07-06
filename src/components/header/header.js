@@ -2,11 +2,21 @@ import React                             from 'react';
 import { NavLink, withRouter }           from 'react-router-dom';
 import { ReactComponent as Close }       from '../../assets/images/close-52-48.svg';
 import { ReactComponent as UserNoPhoto } from '../../assets/images/user-no-photo-template.svg';
-import SignIn                            from '../SignIn';
+import GoogleAuth from '../../GoogleAuth';
+// import MySignIn   from '../mySignIn';
+import SignIn     from '../SignIn';
 import logo                              from '../../assets/images/logo.png'
 
 class Header extends React.Component {
+
   render() {
+    // const signup=()=>{
+    //   return (
+    //     <div>
+    //       <MySignIn/>
+    //     </div>
+    //   )
+    // }
     return (
       <React.Fragment>
         <header className="main-header" data-country-code="US">
@@ -21,10 +31,10 @@ class Header extends React.Component {
 
                 <NavLink to='/' className="main-header__logo">
 
-                  <img src={ logo } alt="" style={ { width: '40px', marginTop: '5px' } }/>
+                  <img src={ logo } alt="" style={ { width: '40px' } }/>
                   <small style={ {
                     position: 'absolute',
-                    marginTop: '17px',
+                    marginTop: '10px',
                     marginLeft: '5px',
                     fontWeight: '600',
                     display: 'inline-flex',
@@ -42,19 +52,11 @@ class Header extends React.Component {
                             data-open="navbar-logo">
                       <Close className="mh-navbar__close-button-icon"/>
                     </button>
-                    <a id="navbar-logo" href="index.html" className="mh-navbar__logo">
+                    <a id="navbar-logo"  className="mh-navbar__logo">
                       <img src={ logo } alt="" style={ { width: '40px', marginTop: '5px' } }/>
                     </a>
                   </div>
-                  <div className="mh-nav">
-                    <NavLink
-                      className="mh-nav__item"
-                      to={ { pathname: '/search/all' } }
-                      exact
-                    >
-                      <span className="mh-nav__item__inner">Rent a car</span>
-                    </NavLink>
-
+                  <div className="mh-nav" style={{marginRight:"30%"}}>
                     <NavLink
                       className="mh-nav__item"
                       to={ { pathname: '/listCar' } }
@@ -70,28 +72,35 @@ class Header extends React.Component {
                     >
                       <span className="mh-nav__item__inner">About Us</span>
                     </NavLink>
+                    <NavLink
+                      className="mh-nav__item"
+                      to={ { pathname: '/about' } }
+                      exact
+                    >
+                      <span className="mh-nav__item__inner">Search Cars</span>
+                    </NavLink>
                   </div>
                 </div>
 
                 <div id="main-header__controls" className="main-header__controls">
-                  <div className="main-header__controls-item dn-xxs">
-                    <button type="button"
-                            className="btn btn--main-header-search-toggle-btn btn-no-bg btn-no-bg--head js-main-header-search-toggle-btn"
-                            data-toggle="main-header-search">
-                      <svg className="icon icon--m-r-0">
-                        {/*<use xlink:href="site/images/svg-sprite.svg#icon-search"></use>*/ }
-                      </svg>
-                      <span className="dn-m">Search cars</span>
-                    </button>
+                  <div className="main-header__controls-item dn-s">
+                    <a href="../mySignIn" className="btn btn-no-bg btn-no-bg--head">
+                      <NavLink
+                        className="mh-nav__item"
+                        to={ { pathname: '/Signup' } }
+                        exact
+                      >
+                        <span style={{color:"white"}}>Sign up</span></NavLink> </a>
                   </div>
-                  <div id="auth_signup" className="main-header__controls-item dn-s">
-                    <a href="sign-up/index.html" className="btn btn-no-bg btn-no-bg--head">
-                      <span>Sign up</span> </a>
-                  </div>
-                  <div id="auth_login" className="main-header__controls-item dn-s">
-                    <button type="button" className="btn btn-no-bg btn-no-bg--head" data-open="mdl-signin">
-                      <span>Log in</span>
-                    </button>
+                  <div className="auth">
+
+                    <NavLink
+                      className="mh-nav__item"
+                      to={ { pathname: '/SignIn' } }
+                      exact
+                    >
+                     <span style={{color:"white"}}>Log in</span>
+                    </NavLink>
                   </div>
                   <div id="auth_mobile" className="main-header__controls-item dn df-s">
                     <button type="button" className="btn btn-no-bg btn-no-bg--head" data-drop="top-nav-menu">
@@ -100,7 +109,7 @@ class Header extends React.Component {
                     <ul id="top-nav-menu"
                         className="dropdown dropdown-1 dropdown-1--head dropdown-1--head--menu js-dropdown">
                       <li className="dropdown-1__item">
-                        <a href="sign-up/index.html" className="dropdown-1__link">
+                        <a className="dropdown-1__link">
                           <span>Sign up</span> </a>
                       </li>
                       <li className="dropdown-1__item">

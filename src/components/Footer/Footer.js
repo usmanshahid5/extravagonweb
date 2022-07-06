@@ -4,7 +4,7 @@ import { NavLink, withRouter } from 'react-router-dom';
 class Footer extends React.Component {
   render() {
     return (
-      <footer className="footer">
+      <footer className="footer" data-aos= "slide-up">
         <div className="center col-12 footer__center">
           <div className="footer__top">
             <div className="footer__col">

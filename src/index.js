@@ -8,6 +8,7 @@ import reportWebVitals   from './reportWebVitals';
 import { store }         from './store';
 import { fetchConfigs }  from './const';
 import './index.css';
+import './animation';
 
 ReactDOM.render(
   <Provider store={ store }>

@@ -6,24 +6,24 @@ class FeaturedCarSection extends React.Component {
     const data = [
       {
         "id": 1,
-        "image": require("../../files/car_images/8500/1651509288_php627008282f07e.jpg.small0e90.jpg?t=1651509291"),
-        "name": "2022 Ford Bronco",
+        "image": require("../../files/car_images/8500/Tesla.jpg"),
+        "name": "2022 TESLA",
         "deliveredFrom": "Hopkinton Township, MA",
         "price": "$295",
         "period": "per day"
       },
       {
         "id": 2,
-        "image": require("../../files/car_images/8350/1647994040_php623a64b8d57b8.jpg.smalld6fd.jpg?t=1647994043"),
-        "name": "2015 Chevrolet Corvette",
+        "image": require("../../files/car_images/8500/bmw.jpg"),
+        "name": "2015 BMW",
         "deliveredFrom": "Revere, MA ",
         "price": "$599",
         "period": "per day"
       },
       {
         "id": 3,
-        "image": require("../../files/car_images/8350/1647993357_php623a620d9e55f.jpg.smalla323.jpg?t=1647993358"),
-        "name": "2016 Jaguar F-Type",
+        "image": require("../../files/car_images/8500/mercedes.jpg"),
+        "name": "2016 MERCEDES",
         "deliveredFrom": "Revere, MA",
         "price": "$399",
         "period": "per day"
@@ -36,7 +36,7 @@ class FeaturedCarSection extends React.Component {
           <h2 className="cards-preset__title title-h-2">Featured cars</h2>
 
           <NavLink
-            to={ { pathname: '/search/all' } }
+            to={ { pathname: '/allCars' } }
             className="cards-preset__btn btn btn-primary btn-primary--small btn-primary--neutral"
             exact
           >
@@ -52,7 +52,7 @@ class FeaturedCarSection extends React.Component {
                 return (
                   <NavLink
                     to={ { pathname: `/carDetails/${ car.id }` } }
-                    className="cards-preset__set__item card active"
+                    className="cards-preset__set__item card animation-element active"
                     key={ idx }
                     exact
                   >

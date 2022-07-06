@@ -6,26 +6,34 @@ class RecentlyAddedSection extends React.Component {
     const data = [
       {
         "id": 1,
-        "image": require("../../files/car_images/8550/1651631408_php6271e530db3e6.jpg.small3ec3.jpg?t=1651631430"),
-        "name": "1970 Volkswagen Beetle",
+        "image": require("../../files/car_images/8550/Nissan.jpg"),
+        "name": "2020 Nissan",
         "deliveredFrom": "Granville, OH ",
         "price": "$60",
         "period": "per day"
       },
       {
         "id": 2,
-        "image": require("../../files/car_images/8550/1651617687_php6271af97b3d7f.jpg.smallbf56.jpg?t=1651617688"),
-        "name": "2022 Dodge Charger SRT Hellcat",
+        "image": require("../../files/car_images/8550/sportage.jpg"),
+        "name": "Sportage",
         "deliveredFrom": "Atlanta, GA",
         "price": "$130",
         "period": "per day"
       },
       {
         "id": 3,
-        "image": require("../../files/car_images/8500/1651609570_php62718fe208e64.jpg.smalle807.jpg?t=1651760566"),
-        "name": "1974 Cadillac Sedan de Ville",
+        "image": require("../../files/car_images/8500/Sportage2.jpg"),
+        "name": "Sportage New",
         "deliveredFrom": "Rocklin, CA",
         "price": "$395",
+        "period": "per day"
+      },
+      {
+        "id": 4,
+        "image": require("../../files/car_images/8550/sportage.jpg"),
+        "name": "Sportage New",
+        "deliveredFrom": "Atlanta, GA",
+        "price": "$130",
         "period": "per day"
       }
     ];

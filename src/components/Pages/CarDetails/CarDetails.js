@@ -66,7 +66,7 @@ class CarDetails extends React.Component {
               <div className="public-vehicle-images t-sl t-s-l js-trigger-by-class-parent">
                 <div className="public-vehicle-images__img-big" data-trigger-by-class="js-open-gallery">
                   <img
-                    src={ require('../../../files/car_images/8500/1651509288_php627008282f07e.jpg.full0e90.jpg?t=1651509291') }
+                    src={ require('../../../files/car_images/8500/Tesla.jpg') }
                     alt="2022 Ford Bronco"/>
 
                   <div className="public-vehicle-images__img-big-mobile-over">
